@@ -36,7 +36,6 @@ function createNewGame(){
   const array=mixingCardDeck(defoultCardDeck)
   fillingGameTable(array)
   time=60
-  count=0
 }
 
 window.onload = createNewGame
